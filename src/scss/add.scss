@@ -1,0 +1,105 @@
+$breakpoint-width: (
+    'md': 'screen and (min-width: 768px)'
+) !default;
+
+@mixin isLarge($breakpoint: md) {
+    @media #{map-get($breakpoint-width, $breakpoint)} {
+        @content;
+    }
+}
+
+body {
+    --width: calc(100vw - 9px);
+    @include isLarge(md) {
+        --width: 750px;
+    }
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    background-image: url(./../img/background.jpg) !important;
+    background-color: rgba(0, 0, 0, 0.4);
+    .navbar {
+        background-color: coral !important;
+        box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.1);
+        .nav {
+            li a {
+                color: white !important;
+                transition: 0.2s;
+                &:hover {
+                    background: white !important;
+                    color: gray !important;
+                    padding-top: 13px;
+                    padding-bottom: 17px;
+                    .fa-twitter {
+                        color: skyblue;
+                    }
+                    .fa-youtube {
+                        color: red;
+                    }
+                    .fa-github {
+                        color: blueviolet;
+                    }
+                }
+            }
+            
+        }
+        .navbar-collapse {
+            border: none !important;
+        }
+    }
+    main {
+        width: var(--width);
+        --content-width: calc(var(--width) * 0.96 - 28px);
+        --content-height: calc(var(--content-width) * 0.5625);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        p, h1, h2, h3, h4, h5, h6, ul > li {
+            color: white;
+        }
+        p, a, .content + ul + li {
+            font-size: 1.2em;
+        }
+        .intro {
+            transition: 0.5s;
+            position: relative;
+            top: -150px;
+            h1 {
+                font-size: 4em;
+                color: crimson;
+            }
+            h2 {
+                font-size: 2em;
+                color: bisque;
+                margin-bottom: 50px;
+            }
+            p {
+                font-size: 0.9em;
+            }
+            @include isLarge(md) {
+                p {
+                    font-size: 1.2em;
+                }
+            }
+        }
+        &:hover .intro {
+            margin-top: -15px;
+        }    
+        .youtube {
+            iframe {
+                width: var(--content-width);
+                height: var(--content-height);
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    @include isLarge(md) {
+        main {
+            width: 750px !important;
+        }
+    }
+}

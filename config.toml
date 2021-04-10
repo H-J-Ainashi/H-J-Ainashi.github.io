@@ -6,12 +6,12 @@ publishDir = "docs"
 
 [params]
     author = "Ainashi / …FGH_JKL…"
-    description = "アイなし、しがないボカロPです。"
+    description = "アイなし、ただのしがないボカロPです。"
     githubUserName = "h-j-ainashi"
     accent = "red"
     backgroundColor = "#fff0f0"
     textColor = "#ffffff"
-    showBorder = true
+    showBorder = false
     font = "Raleway"
     highlight = true
     highlightStyle = "dark"

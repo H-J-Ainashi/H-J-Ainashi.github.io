@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"sass": "node-sass src/scss --output static/css --output-style compressed --watch --source-map true"
+	}
+}
