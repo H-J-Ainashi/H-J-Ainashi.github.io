@@ -15,7 +15,9 @@ publishDir = "docs"
     font = "Raleway"
     highlight = true
     highlightStyle = "dark"
-
+    css = [
+        "css/add.css"
+    ]
 
 [[menu.main]]
     url = "/"
