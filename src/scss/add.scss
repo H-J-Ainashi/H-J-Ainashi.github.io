@@ -8,22 +8,43 @@ $breakpoint-width: (
     }
 }
 
+@font-face {
+    font-family: "NewTegomin";
+    src: url(./../font/NewTegomin-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Stick";
+    src: url(./../font/Stick-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Kiwimaru";
+    src: url(./../font/KiwiMaru-Light.woff) format('woff');
+}
+
 body {
+
     --width: calc(100vw - 9px);
     @include isLarge(md) {
         --width: 750px;
     }
+
+    /* background */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
-    background-image: url(./../img/background.jpg) !important;
+    background-image: url(./../img/background.webp) !important;
     background-color: rgba(0, 0, 0, 0.4);
+
+    /* Navigation Bar */
     .navbar {
         background-color: coral !important;
         box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.1);
         .nav {
             li a {
+                font-family: "stick";
                 color: white !important;
                 transition: 0.2s;
                 &:hover {
@@ -31,6 +52,8 @@ body {
                     color: gray !important;
                     padding-top: 13px;
                     padding-bottom: 17px;
+
+                    /* icon link color */
                     .fa-twitter {
                         color: skyblue;
                     }
@@ -59,8 +82,14 @@ body {
         p, h1, h2, h3, h4, h5, h6, ul > li {
             color: white;
         }
-        p, a, .content + ul + li {
-            font-size: 1.2em;
+        p, a, ul > li {
+            font-family: "Kiwimaru";
+        }
+        b, h1, h2, h3, h4, h5, h6 {
+            font-family: "stick";
+        }
+        .content {
+            font-size: 1.3em;
         }
         .intro {
             transition: 0.5s;
