@@ -1,0 +1,12 @@
+title = "こんにちは、ボクがアイなしです。"
+text = """
+　普段は鏡音の力を借りて歌を制作したり、
+AviUtlの力を借りて曲を書いています。
+
+仲良くしてください。
+"""
+
+[[link]]
+    icon = "fab fa-github"
+    url = "https://github.com/h-j-ainashi"
+
