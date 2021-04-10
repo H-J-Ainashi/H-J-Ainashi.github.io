@@ -1,32 +1,39 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "https://h-j-ainashi.github.io"
+languageCode = "ja-jp"
 title = "I losted I."
 theme = "minimal"
 
 [params]
     author = "Ainashi / …FGH_JKL…"
-    description = "しがないボカロPのブログです。"
+    description = "アイなし、しがないボカロPです。"
     githubUserName = "h-j-ainashi"
     accent = "red"
+    backgroundColor = "#fff0f0"
     showBorder = true
     font = "Raleway"
     highlight = true
     highlightStyle = "dark"
 
+
+[[menu.main]]
+    url = "/"
+    name = "トップ"
+    weight = 1
+
 [[menu.main]]
     url = "/guidelines/"
     name = "各種ガイドライン"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     url = "/post/"
     name = "制作物についての記事"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     url = "mailto:ainashi.music@gmail.com"
     name = "ご連絡"
-    weight = 3
+    weight = 4
 
 [[menu.icon]]
     url = "https://marshmallow-qa.com/h_j_ainashi"
