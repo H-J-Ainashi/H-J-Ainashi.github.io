@@ -10,6 +10,7 @@ publishDir = "docs"
     githubUserName = "h-j-ainashi"
     accent = "red"
     backgroundColor = "#fff0f0"
+    textColor = "#ffffff"
     showBorder = true
     font = "Raleway"
     highlight = true
@@ -36,6 +37,11 @@ publishDir = "docs"
     name = "ご連絡"
     weight = 4
 
+[[menu.main]]
+    url = "/links/"
+    name = "リンク集"
+    weight = 5
+
 [[menu.icon]]
     url = "https://marshmallow-qa.com/h_j_ainashi"
     name = "fas fa-envelope"
@@ -51,4 +57,7 @@ publishDir = "docs"
     name = "fab fa-youtube"
     weight = 3
 
-
+[[menu.icon]]
+    url = "https://twitter.com/h_j_ainashi"
+    name = "fab fa-twitter"
+    weight = 4
