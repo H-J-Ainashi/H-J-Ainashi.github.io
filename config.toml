@@ -2,6 +2,7 @@ baseURL = "https://h-j-ainashi.github.io"
 languageCode = "ja-jp"
 title = "I losted I."
 theme = "minimal"
+publishDir = "docs"
 
 [params]
     author = "Ainashi / …FGH_JKL…"
