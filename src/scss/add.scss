@@ -84,9 +84,12 @@ body {
         }
         p, a, ul > li {
             font-family: "Kiwimaru";
+            text-shadow: 0 2px rgba(0, 0, 0, 0.4)
         }
         b, h1, h2, h3, h4, h5, h6 {
             font-family: "stick";
+            letter-spacing: .1em;
+            text-shadow: 0 4px rgba(0, 0, 0, 0.4)
         }
         .content {
             font-size: 1.3em;
