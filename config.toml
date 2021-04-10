@@ -15,6 +15,7 @@ publishDir = "docs"
     font = ""
     highlight = true
     highlightStyle = "dark"
+    favicon = "img/icon.png"
     css = [
         "css/add.css"
     ]
