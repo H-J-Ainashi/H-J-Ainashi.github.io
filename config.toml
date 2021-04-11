@@ -3,6 +3,7 @@ languageCode = "ja-jp"
 title = "I losted I."
 theme = "minimal"
 publishDir = "docs"
+description = "I losted I. / アイなし、ただのしがないボカロPのもの書き部屋です。"
 
 [params]
     author = "Ainashi / …FGH_JKL…"
