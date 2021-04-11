@@ -1,5 +1,5 @@
 ---
-title: "Guidelines"
+title: "Download & Guidelines"
 date: 2021-04-10T16:20:10+09:00
 ---
 ### オフボーカル並びにパラ音源に関するガイドライン
