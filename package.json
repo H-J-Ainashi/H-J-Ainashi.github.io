@@ -1,5 +1,5 @@
 {
 	"scripts": {
-		"sass": "node-sass src/scss --output static/css --output-style compressed --watch --source-map true"
+		"sass": "node-sass src/scss --output static/css --output-style expanded --watch --source-map true"
 	}
 }

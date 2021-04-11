@@ -2,17 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://h-j-ainashi.github.io/</loc>
+    <lastmod>2021-04-11T12:18:10+09:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://h-j-ainashi.github.io/tags/music/</loc>
+    <lastmod>2021-04-11T12:18:10+09:00</lastmod>
+  </url><url>
+    <loc>https://h-j-ainashi.github.io/post/</loc>
+    <lastmod>2021-04-11T12:18:10+09:00</lastmod>
+  </url><url>
+    <loc>https://h-j-ainashi.github.io/tags/</loc>
+    <lastmod>2021-04-11T12:18:10+09:00</lastmod>
+  </url><url>
+    <loc>https://h-j-ainashi.github.io/post/music/march-the-32nd/</loc>
+    <lastmod>2021-04-11T12:18:10+09:00</lastmod>
+  </url><url>
     <loc>https://h-j-ainashi.github.io/guidelines/</loc>
     <lastmod>2021-04-10T16:20:10+09:00</lastmod>
   </url><url>
     <loc>https://h-j-ainashi.github.io/links/</loc>
     <lastmod>2021-04-10T16:20:10+09:00</lastmod>
   </url><url>
-    <loc>https://h-j-ainashi.github.io/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>https://h-j-ainashi.github.io/categories/</loc>
-  </url><url>
-    <loc>https://h-j-ainashi.github.io/tags/</loc>
   </url>
 </urlset>

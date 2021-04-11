@@ -22,7 +22,7 @@ publishDir = "docs"
 
 [[menu.main]]
     url = "/"
-    name = "トップ"
+    name = "アイをなくした。"
     weight = 1
 
 [[menu.main]]
