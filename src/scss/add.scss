@@ -151,7 +151,7 @@ body {
                 }
                 &::marker {
                     content: "";
-                }                
+                }
             }
         }
         /* Toppage */
@@ -182,7 +182,7 @@ body {
         }
         &:hover .intro {
             margin-top: -15px;
-        }    
+        }
         .content {
             iframe {
                 width: var(--content-width);

@@ -4,7 +4,7 @@
 <meta property="og:title" content="{{ if .Params.Title }}{{ .Params.Title }}{{else}}アイをなくした。{{end}}"/>
 <meta property="og:site_name" content="アイをなくした。"/>
 <meta property="og:url" content="https://h-j-ainashi.github.io/"/>
-<meta property="og:image" content="{{ if .Params.Image }}{{ .Params.Image | absURL }}{{ else }}{{ "img/background.webp" | absURL }}{{end}}"/>
+<meta property="og:image" content="{{ if .Params.ogimage }}{{ .Params.ogimage | absURL }}{{ else }}{{ "img/background.webp" | absURL }}{{end}}"/>
 <meta property="og:description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Site.Params.description }}{{end}}"/>
 <meta name="twitter:title" content="{{ .Params.Title }}{{ if .Params.Title }} / {{end}}アイをなくした。"/>
 <meta name="twitter:card" content="summary_large_image"/>

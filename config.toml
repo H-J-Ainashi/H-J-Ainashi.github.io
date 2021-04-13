@@ -5,6 +5,9 @@ theme = "minimal"
 publishDir = "docs"
 description = "I losted I. / アイなし、ただのしがないボカロPのもの書き部屋です。"
 
+[permarinks]
+    music = "/post/music/:filename/"
+
 [params]
     author = "Ainashi / …FGH_JKL…"
     description = "アイなし、ただのしがないボカロPです。"
@@ -32,7 +35,7 @@ description = "I losted I. / アイなし、ただのしがないボカロPの�
     weight = 2
 
 [[menu.main]]
-    url = "/post/"
+    url = "/tags/"
     name = "制作物についての記事"
     weight = 3
 

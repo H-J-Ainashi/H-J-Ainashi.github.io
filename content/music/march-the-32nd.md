@@ -3,15 +3,18 @@ title: "【鏡音リン】3月32日 `March the 32nd`"
 date: 2021-04-11T12:18:10+09:00
 draft: false
 tags: ["music"]
+ogimage: "articles/music/song-thumbnail/march-the-32nd.webp"
 ---
 
 # 動画
 ## Youtube
-
 {{< movie >}}<iframe width="560" height="315" src="https://www.youtube.com/embed/xPGgZmGk8ZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{{< /movie >}}
 
 ## NicoNico
 {{< movie >}}<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm36600308/script?w=720&h=480"></script><noscript><a href="https://www.nicovideo.jp/watch/sm36600308">3月32日 / 鏡音リン</a></noscript>{{< /movie >}}
+
+## BiliBili
+{{< movie >}}<iframe src="//player.bilibili.com/player.html?aid=883032626&bvid=BV1FK4y1878L&cid=188065657&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>{{< /movie >}}
 
 # この曲を投稿するに際して
 
@@ -42,7 +45,7 @@ tags: ["music"]
 
 ## イラストについて
 
-今回はねこやまさんに依頼して書いていただきました。めちゃくちゃかわいく仕上がっていてボクとしては嬉しい次第です。本当にありがとうございました。
+今回は[ねこやまさん](https://twitter.com/777_nekoyama)に依頼して書いていただきました。めちゃくちゃかわいく仕上がっていてボクとしては嬉しい次第です。本当にありがとうございました。
 
 # ダウンロード
 
