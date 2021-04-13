@@ -3,7 +3,7 @@ title: "【鏡音リン】3月32日 `March the 32nd`"
 date: 2021-04-11T12:18:10+09:00
 draft: false
 tags: ["music"]
-ogimage: "articles/music/song-thumbnail/march-the-32nd.webp"
+ogimage: "img/articles/music/song-thumbnail/march-the-32nd.webp"
 ---
 
 # 動画

@@ -3,7 +3,7 @@ title: "【鏡音リン】叶え歌 `Come True Song`"
 date: 2021-04-13T17:20:53+09:00
 draft: false
 tags: [music]
-ogimage: "articles/music/song-thumbnail/come-true-song.webp"
+ogimage: "img/articles/music/song-thumbnail/come-true-song.webp"
 ---
 
 # 動画
