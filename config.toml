@@ -20,9 +20,8 @@ description = "I losted I. / アイなし、ただのしがないボカロPの�
     highlight = true
     highlightStyle = "dark"
     favicon = "img/icon.png"
-    css = [
-        "css/add.css"
-    ]
+    CustomCss = "css/add.css"
+    LatestCssDate = "20210413"
 
 [[menu.main]]
     url = "/"
