@@ -21,7 +21,7 @@ description = "I losted I. / アイなし、ただのしがないボカロPの�
     highlightStyle = "dark"
     favicon = "img/icon.png"
     CustomCss = "css/add.css"
-    LatestCssDate = "20210413"
+    LatestCssDate = "20210418"
 
 [[menu.main]]
     url = "/"
@@ -32,38 +32,42 @@ description = "I losted I. / アイなし、ただのしがないボカロPの�
     url = "/guidelines/"
     name = "各種DL&ガイドライン"
     weight = 2
+[[menu.main]]
+    url = "/events/"
+    name = "開催中のイベント"
+    weight = 3
 
 [[menu.main]]
     url = "/tags/"
     name = "制作物についての記事"
-    weight = 3
-
-[[menu.main]]
-    url = "https://docs.google.com/forms/d/e/1FAIpQLScVwx2drmwjJoYvarJ7A6_kbBCtpWd0w0UIFURhQcbnOhrZ2A/viewform?usp=sf_link"
-    name = "ご連絡"
     weight = 4
 
-[[menu.main]]
+[[menu.icon]]
     url = "/links/"
-    name = "リンク集"
-    weight = 5
+    name = "fas fa-link"
+    weight = 1
 
 [[menu.icon]]
-    url = "https://marshmallow-qa.com/h_j_ainashi"
+    url = "https://docs.google.com/forms/d/e/1FAIpQLScVwx2drmwjJoYvarJ7A6_kbBCtpWd0w0UIFURhQcbnOhrZ2A/viewform?usp=sf_link"
     name = "fas fa-envelope"
-    weight = 1
+    weight = 2
+
+[[menu.icon]]
+    url = "https://marshmallow-qa.com/h_j_ainashi?utm_medium=url_text&utm_source=promotion"
+    name = "fas fa-heart"
+    weight = 3
 
 [[menu.icon]]
     url = "https://github.com/h-j-ainashi"
     name = "fab fa-github"
-    weight = 2
+    weight = 4
 
 [[menu.icon]]
     url = "https://www.youtube.com/channel/UCEyCwi44UxQ5O_wkx9aZO1w"
     name = "fab fa-youtube"
-    weight = 3
+    weight = 5
 
 [[menu.icon]]
     url = "https://twitter.com/h_j_ainashi"
     name = "fab fa-twitter"
-    weight = 4
+    weight = 6
